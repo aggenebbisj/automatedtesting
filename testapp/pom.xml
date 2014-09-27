@@ -14,16 +14,14 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
-  <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>sonar-maven-plugin</artifactId>
-          <version>4.4.1</version>
-        </plugin>
-      <plugins>
-    </pluginManagement>
+  <build>     
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>4.4.1</version>
+      </plugin>
+    </plugins>
   </build>
 
   <dependencies>
